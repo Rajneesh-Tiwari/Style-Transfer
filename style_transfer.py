@@ -228,3 +228,5 @@ for i in range(iterations):
     end_time = time.time()
     print('Image saved as', fname)
     print('Iteration %d completed in %ds' % (i, end_time - start_time))
+
+    #### credits to https://github.com/fchollet/keras/blob/master/examples/neural_style_transfer.py for the original content
